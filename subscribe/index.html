@@ -113,6 +113,11 @@
                         </div>
                         <hr/>
                         <div class="row">
+                            <label for="longitudeCalibration">Please adjust this based on your longitude needs:</label>
+                            <input type="range" class="custom-range" min="0" max="10" step=".25" id="customLongRange">
+                        </div>
+                        <hr />
+                        <div class="row">
                                 <label class="checkboxes">Please select the following <i>holistic free</i> <b>Acme Services</b> you're interested in:</label>
                         </div>
                         <div class="row">
@@ -157,6 +162,15 @@
                             </div>
                                         
                                 </div>
+                            </div>
+                            <hr/>
+                            <div class="form-group">
+                              <div class="row"><label="forText">Please compose a short poem about yourself:</label>
+                              </div>  
+                                <textarea class="form-control" id="forText" rows="4"></textarea>
+                                <small id="poemHelpBlock" class="form-text text-muted">
+                                    Your poem should be whimisical with hints of classical prose and contain no special characters or emoji.
+                                </small>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
