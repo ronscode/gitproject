@@ -14,3 +14,7 @@
 .row {
     background-color: rgba(0, 0, 0, 0)
 }
+
+.nav-container{
+    width: 33%;
+}
